@@ -5,6 +5,7 @@
 }
 
 body {
+  margin: 0;
   font-family: Arial, sans-serif;
 }
 
@@ -13,15 +14,17 @@ body {
   background-image: url('assets/image1.jpg');
   text-align: center;
   height: 120px;
-  background-size: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 /* Style the footer */
 .footer {
-  background-image: url('assets/image2.jpg');
+  background-image: url('assets/image2.png');
   text-align: center;
   height: 101px;
-  background-size: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 /* Create a flex container for the main content */
@@ -36,7 +39,7 @@ body {
 .column-left {
   flex: 1;
   padding: 15px;
-  background-color: rgb(180, 17, 161);
+  background-color: rgb(91, 139, 86);
   font-size: 20px;
   color: #ffffff;
 }
@@ -45,7 +48,7 @@ body {
 .column-right {
   flex: 1;
   padding: 15px;
-  background-color: rgb(17, 131, 180);
+  background-color: rgb(140, 182, 201);
   font-size: 20px;
   color: #ffffff;
 }
